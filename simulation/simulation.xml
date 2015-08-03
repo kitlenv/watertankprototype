@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <device>iphone5</device>
+  <scale>100</scale>
+  <orientation>portrait</orientation>
+  <iosversion>eight</iosversion>
+  <widthValue>320</widthValue>
+  <heightValue>568</heightValue>
+  <hasTopPanel>true</hasTopPanel>
+  <hasRotate>true</hasRotate>
+  <hasGestureTool>true</hasGestureTool>
+  <hasZoom>true</hasZoom>
+</settings>
+

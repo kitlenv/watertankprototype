@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgetLibraries>
+  <library>
+    <uuid>05ed0e22-75e0-459e-aa12-1e1c596d67c8</uuid>
+    <name>Basic</name>
+  </library>
+  <library>
+    <uuid>10ed0e22-75e0-459e-aa12-1e1c596d67c8</uuid>
+    <name>iPhone IOS8</name>
+  </library>
+  <library>
+    <uuid>15ed0e22-75e0-459e-aa12-1e1c596d67c9</uuid>
+    <name>IOS8 Icons</name>
+  </library>
+</widgetLibraries>
+
