@@ -188,7 +188,7 @@
 {{=annotation.render(it, "comment-template")}}
 <div class="replies"></div>
 <div class="replier">
-<img class="user-comment-img" {{? !annotation.hasPicture()}}src="./resources/_jim/images/sidepanel/user_picture_mini.png"{{?? true}}src="../../../../images/pictures/{{=annotation.getCurrentAuthorID()}}.png"{{?}}/>
+<img class="user-comment-img" {{? !annotation.hasPicture()}}src="./resources/_jim/images/sidepanel/user_picture_mini.png"{{?? true}}src="./images/pictures/{{=annotation.getCurrentAuthorID()}}.png"{{?}}/>
 <textarea class="annotation firer">Leave a comment...</textarea>
 <div class="actions">
 <form class="attachment firer" enctype="multipart/form-data" method="post">
@@ -213,7 +213,7 @@
 <input type="hidden" id="code" value="{{=it.code}}" />
 <input type="hidden" id="timestamp" value="{{=it.timestamp}}" />
 <div class="comment-content">
-<img class="user-comment-img{{? annotation.hasPermission(it.author)}} firer{{?}}" {{? annotation.hasPermission(it.author) && !annotation.hasPicture()}}src="./resources/_jim/images/sidepanel/user_picture_mini.png"{{?? true}}src="../../../../images/pictures/{{=it.authorID}}.png"{{?}}/>
+<img class="user-comment-img{{? annotation.hasPermission(it.author)}} firer{{?}}" {{? annotation.hasPermission(it.author) && !annotation.hasPicture()}}src="./resources/_jim/images/sidepanel/user_picture_mini.png"{{?? true}}src="./images/pictures/{{=it.authorID}}.png"{{?}}/>
 {{? annotation.hasPermission(it.author)}}<span class="user-comment-img-add user_picture_more firer{{? annotation.hasPicture()}} hidden{{?}}"></span>{{?}}
 <div class="user-comment-content">
 <span class="author" title="{{=it.author}}">{{=it.author}}</span>{{? annotation.hasPermission(it.author) }}<span class="edit edit_topic firer"></span><span class="delete delete_topic firer"></span>{{?}}
