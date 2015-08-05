@@ -5,7 +5,7 @@
   <name>Screen_ZoomLevel1</name>
   <code>d12245cc-1680-458d-89dd-4f0d7fb22724</code>
   <templateID>f39803f7-df02-4169-93eb-7547fb8c961a</templateID>
-  <date>04/08/2015 00:22:57</date>
+  <date>06/08/2015 00:22:55</date>
   <note></note>
   <legend-item></legend-item>
   <pageAlignment>LEFT</pageAlignment>
@@ -452,7 +452,7 @@
           <DimensionStyle width="321" height="24" />
           <PositioningStyle left="0" top="0" />
         </style>
-        <userID>Group_257</userID>
+        <userID>Group_Head_Bar</userID>
       </group-container>
       <style name="LnFGroup">
         <DimensionStyle width="321" height="568" />
@@ -1520,6 +1520,16 @@
           <hideElement hide="false" item="a6815e92-0cee-4864-8be3-5deed0c66c5a" execType="serial" delayAction="0">
             <effect type="slideleft" length="300" />
           </hideElement>
+        </block>
+      </case>
+    </event>
+    <event id="2a8d992f-a314-4c42-9aaf-49862aab63de" trigger="onClick">
+      <case execType="serial" delayAction="0">
+        <description>Interaction name</description>
+        <block>
+          <navigateLink execType="serial" delayAction="0">
+            <screen id="45bd4d9e-4a67-4f09-aa35-f17e146ee1a7">Coles_Store</screen>
+          </navigateLink>
         </block>
       </case>
     </event>
